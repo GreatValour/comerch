@@ -86,7 +86,7 @@ time {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(images/arrow.png) no-repeat;
+    background: url() no-repeat;
     position: absolute;
     top: 50%;
     right: 10px;
