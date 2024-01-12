@@ -1,3 +1,2 @@
 RewriteEngine on
-RewriteRule ^index index.html [NC]
-RewriteRule ^career career.html [NC]
+RewriteRule ^career\.html$ /career [L,R=301]
