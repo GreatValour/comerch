@@ -99,6 +99,11 @@ time {
 
 
 /* Global properties ======================================================== */
+
+@media screen and (max-width: 600px)
+  body {
+    font-size: 14px;
+  }
 html {
 	width: 100%;
 	overflow: auto;
