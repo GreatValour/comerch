@@ -30,8 +30,13 @@ summary,
 time {
 	display: inline;
 }
-.row-2 nav {
-    width: 100%;
+.row-2 nav 
+    @media screen and (max-width: 600px) {
+		nav a, .dropdown {
+		  float: none;
+		  display: block;
+		  text-align: left;
+		}
 }
 
 .row-2 ul.sf-menu {
